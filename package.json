@@ -4,7 +4,7 @@
   "description": "Create Webcrawler app with Node.js allow input content into a webform, submit, and scrape the resulting content from the resulting screen.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "start": "nodemon --exec babel-node server.js",
     "dev": "webpack -wd"
   },
   "repository": {
