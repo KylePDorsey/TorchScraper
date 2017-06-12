@@ -1,0 +1,24 @@
+{
+  "torches": [
+    {
+      "id": 1,
+      "categoryName": "Electric",
+      "torchName": "Flash Light"
+    },
+    {
+      "id": 2,
+      "categoryName": "Fire",
+      "torchName": "Fire on a Stick"
+    },
+    {
+      "id": 3,
+      "categoryName": "Gas",
+      "torchName": "Butane Torch"
+    },
+    {
+      "id": 4,
+      "categoryName": "LED",
+      "torchName": "LED Flash Light"
+    }
+  ]
+}
