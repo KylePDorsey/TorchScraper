@@ -1,0 +1,19 @@
+{
+  "name": "torchcrawler",
+  "version": "1.0.0",
+  "description": "Create Webcrawler app with Node.js allow input content into a webform, submit, and scrape the resulting content from the resulting screen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KylePDorsey/TorchScraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KylePDorsey/TorchScraper/issues"
+  },
+  "homepage": "https://github.com/KylePDorsey/TorchScraper#readme"
+}
