@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
-import TorchPreview from './TorchPreview';
+import TorchList from './TorchList';
+
 import data from '../testData';
 
 class App extends React.Component {
@@ -20,11 +21,7 @@ class App extends React.Component {
 		return (
 		<div className="App">
 			<Header message={this.state.pageHeader} />
-			<div>
-				{this.state.torches.map(torch => 
-					<TorchPreview key={torch.id} {...torch} />
-				)}
-			</div>
+			<TorchList torches={this.state.torches} />
 		</div>
 		);
 	}
