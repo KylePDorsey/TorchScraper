@@ -4,13 +4,16 @@ import apiRouter from './api';
 import express from 'express';
 const server = express();
 
+
 server.set('view engine', 'ejs');
+
 
 server.get('/', (req, res) => {
 	res.render('index', {
 		content: 'Hello'
 	});
-});
+})
+
 
 server.use('/api', apiRouter);
 server.use(express.static('public'));
@@ -20,6 +23,6 @@ server.use(express.static('public'));
 // 	res.send('About Page');
 // });
 
-server.listen(config.port, () => {
+server.listen(config.port, config.host, () => {
 	console.info('Express listening on port ', config.port);
 }); 
